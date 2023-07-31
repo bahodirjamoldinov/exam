@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Regular.ttf) format("truetype");
+}
+
+;
+
+@font-face {
+    font-family: 'Sen';
+    src: url(../fonts/Sen-Regular.ttf) format("truetype");
+}
+
+.rg__wrapper {
+    padding-top: 80px;
+    height: 956px;
+}
+
+.rg__wrapper--title {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #232536;
+    margin: 70px 0 50px;
+}
+
+#btn {
+    border: none;
+    width: 768px;
+    height: 68px;
+    background-color: #FFD050;
+}
+
+#btnn {
+    width: 768px;
+    height: 76px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    font-size: 30px;
+    border-color: #ccc;
+}

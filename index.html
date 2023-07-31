@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./botstrap/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/registr.css">
+    <link rel="stylesheet" href="css/top.css">
+</head>
+<body>
+
+  <button id="dark-light">
+    
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTEdBOFFM7g174XEM8w4_Q9Vt4tt9wjbWUyA&usqp=CAU" alt="" width="50" height="50" style="border-radius: 100%;">
+</button>
+
+    <div id="backtop">
+        <a href="#" title="TOP">^</a>
+      </div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg z-2" id="nav">
+            <div class="container container-fluid d-flex justify-content-between">
+              <img
+                src="./images/Logo.svg"
+                alt="finsweet"
+                class="navbar-brand"
+                style="cursor: pointer"
+              />
+              <button
+                class="navbar-toggler text-bg-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="max-width: 780px;">
+                <ul class="navbar-nav me-0">
+                  <li class="nav-item" style="opacity: 0;">
+                      <a class="nav-link text-light" href="./home.html" style="margin-left: 32px;">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="home.html" style="margin-left: 32px;">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="./allPosts.html" style="margin-left: 32px;">All Posts</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="./abaut.html" style="margin-left: 32px;">Abaut Us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="./index.html" style="margin-left: 32px;">Register</a>
+                  </li>
+              </ul>
+                <a href="./login.html" class="nav__btn">Login</a>
+            </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="rg__wrapper" >
+                <h2 class="rg__wrapper--title">Register</h2>
+                <form action="./login.html" style="text-align: center;">
+                    <div class="user-box">
+                      <input type="text" name="Firstname" id="btnn" class="err" placeholder="Firstname" required>
+          
+                      <span id="err"></span>
+                    </div>
+                    <div class="user-box">
+                      <input type="text" name="Lastname" id="btnn" placeholder="Lastname" required>
+                      <span id="err2"></span>
+                    </div>
+                      <div class="user-box">
+                      <input type="text" name="Username" id="btnn" placeholder="Username" required>
+                      <span id="err3"></span>
+                    </div>
+                      <div class="user-box">
+                      <input type="text" name="password" id="btnn" placeholder="Password" required >
+                      <span id="err4"></span>
+                    </div>
+                      <div class="user-box">
+                      <input type="text" name="Confirm password" id="btnn" placeholder="Confirm password" required style="width: 768px; height:76px ;margin-bottom:30px ;border-radius: 2px;font-size: 30px;">
+                      <span id="err5"></span>
+                    </div>
+                  <button type="submit" id="btn">Login</button>
+                  </form>
+            </div> 
+        </div>
+    </main>
+    <footer style="background: #232536;">
+        <div class="container">
+            <div class="wrapper">
+                <div class="wrapper__left">
+                    <p class="wrapper__left--text">Finstreet 118 2561 Fintown <br> Hello@finsweet.com  020 7993 2905</p>
+                </div>
+                <div class="wrapper__right">
+                    <img src="./images/facebook.svg" alt="facebook" class="wrapper__right--img">
+                    <img src="./images/twitter.svg" alt="twitter" class="wrapper__right--img">
+                    <img src="./images/instagram.svg" alt="instagram" class="wrapper__right--img">
+                    <img src="./images/linkedin.svg" alt="linkedin" class="wrapper__right--img">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./botstrap/bootstrap.min.js"></script>
+    <script src="js/top.js"></script>
+    <!-- <script src="./js/register.js"></script> -->
+</body>
+</html>
